@@ -1,7 +1,7 @@
 const axios = require('axios');
 const parser = require('html-dom-parser');
 
-function getGoogle(url, sheetName) {
+function getArray(url, sheetName) {
     axios.get(url)
         .then(function (response) {
 
@@ -63,5 +63,5 @@ function getGoogle(url, sheetName) {
         })
 }
 
-module.exports = { getGoogle }
+module.exports = { getArray }
 
