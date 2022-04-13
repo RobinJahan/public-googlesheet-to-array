@@ -1,0 +1,15 @@
+{
+  "name": "public-googlesheet-to-array",
+  "version": "1.0.0",
+  "description": "Parse a public googlesheet into an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Jahan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "html-dom-parser": "^1.1.1"
+  }
+}
